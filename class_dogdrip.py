@@ -46,7 +46,7 @@ class vote:
                       alert = self.driver.switch_to.alert
                       alert = self.driver.switch_to.alert
                       alert.accept()
-                      time.sleep(5)
+                      time.sleep(4)
                       self.driver.back()
                  except TimeoutException:
                      time.sleep(5)
@@ -91,7 +91,7 @@ def main():
     xpath_password = '//*[@id="fo_member_login"]/fieldset/div[2]/input'
     your_id = 'ghkswns92'
     your_password = 'wkdqkrtnrwp01'
-    
+   
     #클래스이용
     login=login_web(url,headers,driver,xpath_loginbutton,xpath_id,xpath_password,your_id,your_password)
     v1=vote(url,headers,driver,word,xpath_vote)
