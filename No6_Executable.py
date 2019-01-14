@@ -8,7 +8,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import sys
-sys.path.append("D:\\python\\No5")
 import loginno5
 from loginno5 import login_web
 import wordsearch
@@ -17,7 +16,7 @@ from wordsearch import vote
 
 def main():    
     headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'}
-    driver = webdriver.Chrome('C:\chromedriver.exe')
+    driver = webdriver.Chrome('/home/giman07/다운로드/chromedriver')
     
     # 사이트의 특성
     print('사이트 주소를 입력하세요.')
