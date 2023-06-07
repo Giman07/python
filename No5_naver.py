@@ -25,8 +25,8 @@ def main():
     xpath_loginbutton = '//*[@id="btnMinidaumLogin"]'
     xpath_id = '//*[@id="id"]'
     xpath_password = '//*[@id="inputPwd"]'
-    your_id = 'ghkswns92'
-    your_password = 'wkdqkrtnrwp01'
+    your_id = 'gdasdfqwe'
+    your_password = '********'
     a = 'a'
     class_title = 'link_txt'
     #클래스이용
